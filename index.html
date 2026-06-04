@@ -1,0 +1,631 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Manon Chagot</title>
+</head>
+<body class="light">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home"><div class="nav-brand">MC</div></a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-lang="Accueil">Accueil</a></li>
+                <li><a href="#about" class="nav-link" data-lang="À propos">À propos</a></li>
+                <li><a href="#experience" class="nav-link" data-lang="Parcours">Parcours</a></li>
+                <li><a href="#skills" class="nav-link" data-lang="Compétences">Compétences</a></li>
+                <li><a href="#projects" class="nav-link" data-lang="Projets">Projets</a></li>
+                <li><a href="#contact" class="nav-link" data-lang="Contact">Contact</a></li>
+                <!-- Theme and Language Toggles -->
+                <li><button class="theme-toggle" onclick="toggleTheme()">🌙</button></li>
+                <li><button class="lang-toggle" onclick="toggleLanguage()">FR</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+
+        <div class="hero-content">
+            <div class="initials fade-in">MC</div>
+            <div class="photo-container fade-in">
+                <div class="photo-placeholder">
+                    <img src="assets/img/photo-de-profil.png" alt="Manon Chagot">
+                </div>
+            </div>
+            <h1 class="title fade-in">Manon Chagot</h1>
+            <p class="subtitle fade-in" data-lang="Étudiante BUT Informatique • Alternante • Développeuse Passionnée">Étudiante BUT Informatique • Alternante • Développeuse Passionnée</p>
+        </div>
+    </section>
+
+    <!-- About Section avec effet écran PC -->
+    <section id="about" class="scroll-fade">
+        <h2 class="section-title" data-lang="À propos de moi">À propos de moi</h2>
+        <div class="about-screen">
+            <div class="screen-frame">
+                <div class="screen-header">
+                    <div class="screen-button close"></div>
+                    <div class="screen-button minimize"></div>
+                    <div class="screen-button maximize"></div>
+                    <div class="screen-title-header"><p>Manon Chagot ~ 21 ans</p></div>
+                </div>
+                <div class="screen-content">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p class="about-description" data-lang="about-text">
+                                Passionnée par le développement informatique depuis le lycée, je suis actuellement étudiante en BUT Informatique en alternance. Mon parcours m'a permis à ce jour de développer mes compétences en programmation et en gestion de projets. Je suis constamment à la recherche de nouvelles solutions informatiques pour approfondir mes connaissances.
+                            </p>
+
+                            <p class="about-description" data-lang="about-text2">
+                                Ma curiosité naturelle me pousse à explorer différents domaines de l'informatique, du développement web aux applications mobiles, en passant par l'intelligence artificielle et, malgré le choix du parcous A, par le réseau.
+                            </p>
+                            <a href="assets/docs/CV_CHAGOT.pdf" target="_blank"><div class="cv-btn">Voir le CV</div></a>
+                        </div>
+                       
+
+                        <div class="right-section">
+                            <div class="infos">
+                                <h3 style="text-align: center; margin-bottom: 2rem;" data-lang="Informations générales">Informations générales</h3>
+                                <div class="infos-grid">
+                                    <div class="infos-item">
+                                        <div class="infos-label" data-lang="Diplome">Diplôme</div>
+                                        <div class="infos-value" data-lang="BUT">BUT Informatique Parcours A</div>
+                                    </div>
+                                    <div class="infos-item">
+                                        <div class="infos-label" data-lang="Anglais">Anglais</div>
+                                        <div class="infos-value" data-lang="Niveau">Niveau B1</div>
+                                    </div>
+                                    <div class="infos-item">
+                                        <div class="infos-label" data-lang="Localisation">Localisation</div>
+                                        <div class="infos-value" data-lang="France">France, Pas-de-Calais</div>
+                                    </div>
+                                    <div class="infos-item">
+                                        <div class="infos-label" data-lang="Permis conduire">Permis B</div>
+                                        <div class="infos-value" data-lang="2+ ans">1er Juin 2023</div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <div class="languages-section">
+                            <h3 style="text-align: center; margin-bottom: 2rem;" data-lang="Langages maîtrisés">Langages maîtrisés</h3>
+                            <div class="languages-grid">
+                                <a href="https://www.java.com/en/" target="_blank">
+                                    <div class="language-item">
+                                        <img src="assets/img/java-coffee-cup-logo.png" class="language-icon" alt="Java Logo">
+                                        <span>Java</span>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.python.org/" target="_blank">
+                                    <div class="language-item">
+                                        <img src="assets/img/Python-logo-notext.png" class="language-icon" alt="Python Logo">
+                                        <span>Python</span>
+                                    </div>
+                                </a>
+
+                                <a href="https://devdocs.io/c/" target="_blank">
+                                    <div class="language-item">
+                                        <img src="assets/img/C_Programming_Language.png" class="language-icon" alt="C Logo">
+                                        <span>C</span>
+                                    </div>
+                                </a>
+
+                                <a href="https://nodejs.org/en" target="_blank">
+                                    <div class="language-item">
+                                        <img src="assets/img/node-js-icon-1817x2048-g8tzf91e.png" class="language-icon" alt="Node.js Logo">
+                                        <span>Node.js</span>
+                                    </div>
+                                </a>
+
+                                <a href="https://git-scm.com/" target="_blank">
+                                    <div class="language-item">
+                                        <img src="assets/img/Git_icon.png" class="language-icon" alt="Git Logo">
+                                        <span>Git</span>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.php.net/" target="_blank">
+                                    <div class="language-item">
+                                        <img src="assets/img/PHP-logo.svg_.png" class="language-icon" alt="PHP Logo">
+                                        <span>PHP</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Alternance) -->
+    <section id="experience" class="experience-section scroll-fade">
+        <h2 class="section-title" data-lang="Mon Parcours en Alternance">Mon Parcours Scolaire</h2>
+        <div class="timeline-container">
+            <div class="timeline-path"></div>
+            <div class="timeline-cards">
+                <div class="timeline-card">
+                    <div class="card-connector"></div>
+                    <div class="card-content">
+                        <div class="card-year">2020/2023</div>
+                        <h3 class="card-title" data-lang="exp1-title">Baccalauréat</h3>
+                        <p class="card-description" data-lang="exp1-desc">
+                            Obtention du baccalauréat général, spécialités : Mathématiques, Numérique et Sciences Informatiques.
+                        </p>
+                        <img src="assets/img/Logo_Berthelot_bgremove.png" alt="Logo Sophie Berthelot" />
+                    </div>
+                </div>
+                
+                <div class="timeline-card">
+                    <div class="card-connector"></div>
+                    <div class="card-content">
+                        <div class="card-year">2023/2024</div>
+                        <h3 class="card-title" data-lang="exp2-title">BUT Informatique</h3>
+                        <p class="card-description" data-lang="exp2-desc">
+                            Première année du BUT Informatique à l'IUT de Calais.
+                        </p>
+                        <img src="assets/img/IUT_logo_bgremove.png" alt="Logo IUT" />
+                    </div>
+                </div>
+                
+                <div class="timeline-card">
+                    <div class="card-connector"></div>
+                    <div class="card-content">
+                        <div class="card-year">2024/2025</div>
+                        <h3 class="card-title" data-lang="exp3-title">BUT en alternance</h3>
+                        <p class="card-description" data-lang="exp3-desc">
+                            Deuxième année du BUT Informatique en alternance à la CPAM des Flandres de Dunkerque.
+                        </p>
+                        <img src="assets/img/CPAM_logo_peut-etre_net.png" alt="Logo CPAM Flandres" />
+                    </div>
+                </div>
+                
+                <div class="timeline-card">
+                    <div class="card-connector"></div>
+                    <div class="card-content">
+                        <div class="card-year">2025: Présent</div>
+                        <h3 class="card-title" data-lang="exp4-title">Poursuite du BUT</h3>
+                        <p class="card-description" data-lang="exp4-desc">
+                            Le BUT Informatique se déroule en trois ans. Je le poursuis avec mon alternance à la CPAM.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section - Cartes interactives -->
+    <section id="skills" class="scroll-fade">
+        <h2 class="section-title" data-lang="Compétences">Compétences</h2>
+        <div class="skills-container">
+            <div class="skill-card" onclick="openSkillModal('realiser')">
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <div class="skill-icon">💻</div>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-title" data-lang="skill1-title">C1 ~ Réaliser</h3>
+                        <div class="skill-level">
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚪</div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <p class="skill-description" data-lang="skill1-desc">
+                        Développer - c’est-à-dire concevoir, coder, tester et intégrer - une solution informatique pour un client.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Vue.js</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-card" onclick="openSkillModal('optimiser')">
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <div class="skill-icon">📈</div>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-title" data-lang="skill2-title">C2 ~ Optimiser</h3>
+                        <div class="skill-level">
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚪</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <p class="skill-description" data-lang="skill2-desc">
+                        Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-card" onclick="openSkillModal('administrer')">
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <div class="skill-icon">🗄️</div>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-title" data-lang="skill3-title">C3 ~ Administrer</h3>
+                        <div class="skill-level">
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚪</div>
+                            <div>⚪</div>
+                            <div>⚪</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <p class="skill-description" data-lang="skill3-desc">
+                        Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Nginx</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-card" onclick="openSkillModal('gerer')">
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <div class="skill-icon">📋</div>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-title" data-lang="skill4-title">C4 ~ Gérer</h3>
+                        <div class="skill-level">
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚪</div>
+                            <div>⚪</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <p class="skill-description" data-lang="skill4-desc">
+                        Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MariaDB</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-card" onclick="openSkillModal('conduire')">
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <div class="skill-icon">🚀</div>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-title" data-lang="skill5-title">C5 ~ Conduire</h3>
+                        <div class="skill-level">
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚪</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <p class="skill-description" data-lang="skill5-desc">
+                        Satisfaire les besoins des utilisateurs au regarde de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Trello</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-card" onclick="openSkillModal('collaborer')">
+                <div class="skill-header">
+                    <div class="skill-icon-wrapper">
+                        <div class="skill-icon">🤝</div>
+                    </div>
+                    <div class="skill-info">
+                        <h3 class="skill-title" data-lang="skill6-title">C6 ~ Collaborer</h3>
+                        <div class="skill-level">
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚫</div>
+                            <div>⚪</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <p class="skill-description" data-lang="skill6-desc">
+                        Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.
+                    </p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Réunion</span>
+                        <span class="skill-tag">Cahier des charges</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal pour les détails des compétences -->
+    <div id="skillModal" class="skill-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeSkillModal()">×</button>
+            <div class="modal-header">
+                <div class="modal-skill-icon" id="modalIcon">💻</div>
+                <h2 class="modal-skill-title" id="modalTitle">Développement Web</h2>
+            </div>
+            
+            <div class="acquisition-details" id="acquisitionDetails">
+                <!-- Le contenu sera généré par JavaScript -->
+            </div>
+            
+            <div class="projects-showcase">
+                <h3 class="showcase-title" data-lang="Projets justificatifs">Projets justificatifs</h3>
+                <div class="project-cards-grid" id="projectShowcase">
+                    <!-- Les cartes projets seront générées par JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="scroll-fade">
+        <h2 class="section-title" data-lang="Mes Projets">Mes Projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/astro_classic.png" alt="Projet 1">
+                    <img src="assets/img/astro_green.png" alt="Projet 1">
+                    <img src="assets/img/astro_pink.png" alt="Projet 1">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj1-title">SAÉ Astrophoto</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AstroQuery</span>
+                        <span class="tech-tag">PyQt6</span>
+                    </div>
+                    <p class="project-description" data-lang="proj1-desc">
+                        Développement d'une application de fusion d'images permettant l'étude d'objets stellaires.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/AlbinCond/SAE-Astro.git" target="_blank" class="project-link" data-lang="Voir le code">Voir le code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/carte_interactive.png" alt="Projet 2">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj2-title">Cartographie Interactive</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MariaDB</span>
+                    </div>
+                    <p class="project-description" data-lang="proj2-desc">
+                        Développement d'une carte interactive des Flandres, pour la CPAM, permettant l'études des données de son territoire. Ce projet a été réalisé en collaboration avec le service MMDS.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/pokemon_start.png" alt="Projet 3">
+                    <img src="assets/img/pokemon_start_green.png" alt="Projet 3">
+                    <img src="assets/img/pokemon_red_turn.png" alt="Projet 3">
+                    <img src="assets/img/pokemon_fight.png" alt="Projet 3">
+                    <img src="assets/img/pokemon_win.png" alt="Projet 3">
+                    <img src="assets/img/pokemon_victory.png" alt="Projet 3">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj9-title">Échecs Pokémon</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag"><a href="https://github.com/synave/MG2D" target="_blank" class="project-desc-link">MG2D</a></span>
+                        <span class="tech-tag">POO</span>
+                    </div>
+                    <p class="project-description" data-lang="proj9-desc">
+                        Développement d'un jeu d'échecs version Pokémon en Java avec le moteur graphique MG2D. Ce projet met en oeuvre la POO.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Manuki17/Pokemon-Chess.git" target="_blank" class="project-link" data-lang="Voir le code">Voir le code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/magasin.png" alt="Projet 4">
+                    <img src="assets/img/magasin_search.png" alt="Projet 4">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj3-title">SAÉ Graphes ~ IHM</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PyQt6</span>
+                    </div>
+                    <p class="project-description" data-lang="proj3-desc">
+                        Application, développée en suivant le modèle MVC, permettant la réalisation d'une liste de courses et d'obtenir le chemin le plus cours pour récupérer tous les produits jusqu'à la caisse.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/like_a_deja_vu_start.png" alt="Projet 5">
+                    <img src="assets/img/Like_a_deja_vu.png" alt="Projet 5">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj4-title">Like a Déjà vu</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                    </div>
+                    <p class="project-description" data-lang="proj4-desc">
+                        SAÉ Jeu textuel en C réalisé au cours de la première année du BUT informatique, en équipe, disponible en français et en anglais.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/keylian15/WEB_Basket.git" target="_blank" class="project-link" data-lang="Code source Web">Code source</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/nba_predictor.png" alt="Projet 6">
+                    <img src="assets/img/nba_liste.png" alt="Projet 6">
+                    <img src="assets/img/nba_predic.png" alt="Projet 6">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj5-title">NBA Predictor</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">TypeScript</span>
+                    </div>
+                    <p class="project-description" data-lang="proj5-desc">
+                        Application Web avec gestion de base de données réalisé dans le cadre de la SAÉ Web dynamique.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/keylian15/WEB_Basket.git" target="_blank" class="project-link" data-lang="Code source Web">Sources Web</a>
+                        <a href="https://github.com/keylian15/API_Basket.git" target="_blank" class="project-link" data-lang="Code source API">Sources API</a>
+                        <a href="https://nba-predictor.nonov.fr/index.php" target="_blank" class="project-link" data-lang="Demo">Demo</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/api_poke_swagger.png" alt="Projet 7">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj6-title">API Pokémon</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag"> Node.js</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                    <p class="project-description" data-lang="proj6-desc">
+                        API REST Sécurisée avec authentification JWT, documentation Swagger et tests unitaires complets.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/IUT-Calais/nodejs-pokemon-api-kguerrier-Manuki17.git" target="_blank" class="project-link" data-lang="Voir le code">Voir le code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/terranous_home.png" alt="Projet 8">
+                    <img src="assets/img/terranous_actu.png" alt="Projet 8">
+                    <img src="assets/img/terranous_donate.png" alt="Projet 8">
+                    <img src="assets/img/terranous_home_resp.png" alt="Projet 8">
+                    <img src="assets/img/terranous_menu_resp.png" alt="Projet 8">
+                    <img src="assets/img/terranous_actu_resp.png" alt="Projet 8">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj7-title">SAÉ Site Web statique</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                    <p class="project-description" data-lang="proj7-desc">
+                        Réalisation d'un site web statique suivant le cahier des charges réalisé et validé par le client.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Manuki17/laterreestanous.git" target="_blank" class="project-link" data-lang="Voir le code">Voir le code</a>
+                        <a href="https://projets.jrcandev.netlib.re/laterreestanous/index.html" target="_blank" class="project-link" data-lang="Demo">Demo</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="assets/img/socket_connexion.png" alt="Projet 9">
+                    <img src="assets/img/socket_server.png" alt="Projet 9">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title" data-lang="proj8-title">SAÉ Socket ~ Tic Tac Toe</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">C</span>
+                    </div>
+                    <p class="project-description" data-lang="proj8-desc">
+                        Réalisation d'un jeu de Tic Tac Toe textuel en C fonctionnant à l'aide d'une connexion serveur-client.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Thenoob24/SAE_SOCKET" target="_blank" class="project-link" data-lang="Voir le code">Voir le code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="scroll-fade">
+        <h2 class="section-title" data-lang="Contactez-moi">Contactez-moi</h2>
+        <div class="contact-content">
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;" data-lang="contact-intro">
+                N'hésitez pas à me contacter pour discuter de projets, collaborations ou opportunités professionnelles.
+            </p>
+            
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name" data-lang="Nom">Nom</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" data-lang="Email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject" data-lang="Sujet">Sujet</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" data-lang="Message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn" data-lang="Envoyer">Envoyer</button>
+            </form>
+            
+            <div class="contact-info">
+                <h3 data-lang="Autres moyens de contact">Autres moyens de contact</h3>
+                <p>E-mail : manonchagot17@gmail.com</p>
+                <p>E-mail ULCO : manon.chagot@etu.univ-littoral.fr</p>
+            </div>
+        </div>
+    </section>
+	</body>
